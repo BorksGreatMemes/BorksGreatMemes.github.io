@@ -31,9 +31,9 @@ header{
    text-align: right;
    padding: 30px 40px 30px 40px;
    background-color: #000;
-   background-image: url(turtle_bath.jpg);
-   height: 92px;
-   width: 272px;
+   background-image: url(turtle_bath.jpg); 
+   width: 720px;
+   height: 650px; 
 }
 
 section{
@@ -49,3 +49,11 @@ footer{
    padding: 50px;
    text-align: center;
 }
+
+ 
+ul {
+  color: #000000;
+  list-style-position: inside;
+} 
+
+
