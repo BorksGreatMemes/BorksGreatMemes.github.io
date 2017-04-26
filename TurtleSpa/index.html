@@ -1,26 +1,49 @@
 <!doctype html>
 	<html>
 	<head>
+
+   <!--  Experimental version of the site
+         Just for fun. Actual version should be
+         in your documents or flash drive 
+
+         As of 4/26/2017 First Period this site contains:
+         Embedded music
+         Fade in when site is opened script 
+         Adress tag where the contact info is displayed 
+         Fixed UL points, aren't perfect
+         Fixed Turtlebath image
+         Uncomment them to get em working  -->
+
 		<title>Turtle Spa</title>
 		<link rel="stylesheet" href="style.css"/>
-                <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 
 	</head>
 	<body>
 	<div id="wrapper">
+
+	<!-- Simple fade in
+	     after 300ms the site will fade in for 2000ms or 2sec-->
+
+ <script src="E:\WebsiteAssets\jquery.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    $("body").hide();
+    $("body").delay(300).fadeIn(2000);
+    });
+    </script>  
+
         <header>
 	<h1>Terrapin Wellness</h1>
  	<h2>The spa that your turtle deserves</h2>
 	<p>Our cleansing, nourishing and relaxing facilities will provide the ideal vacation for your precious turtles. Treat them to what they would ask for, if they could.</p>
         </header>
         <section>
-	<!--
- 	<img src="turtle_bath.jpg"/>
-	-->
 
 	<h3>Services</h3>
 	<ul>
-		<center><li>Pro-biotic</li></center>
+
+		<li>Pro-biotic</li>
 		<li>anti-bacterial</li>
 		<li>cleaning Organic</li>
 		<li>Organic multigrain feeding </li>
@@ -29,12 +52,18 @@
 	</ul>
 	</section>
 	<footer>
-    <p>
+    <p> <!-- <address> -->
     Terrapin Wellness Inc.<br />
     44-5058 Fake Avenue<br /> 
     Vancouver, BC, V6R 3P4 <br />
     Tel: 778-000-0010 <br /> Fax:778-000-0011
-    </p>
+    </p> <!-- </address> -->
+
+    <!-- Play audio script -
+         No controller. Auto plays hidden 
+         Turn down your sound, can be loud.-->
+
+    <embed name="Groovy" src="E:\Websites\Test.mp3" loop="true" hidden="true" autostart="true"> 
     </footer>
 
 	</div>
