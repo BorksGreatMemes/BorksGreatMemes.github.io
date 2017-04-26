@@ -33,7 +33,7 @@ header{
    background-color: #000;
    background-image: url(turtle_bath.jpg); 
    width: 720px;
-   height: 650px; 
+   height: 650px;  
 }
 
 section{
@@ -50,12 +50,16 @@ footer{
    text-align: center;
 }
 
- 
-/* ul {
+ /*  
+ul {
   color: #000000;
   list-style-position: inside;
-} */ 
+} 
+*/
 
-
-
-
+.brush{
+   float: right;
+   margin-left: 50px;
+   height: 200px;
+   box-shadow: 0 0 25px #000;
+}
