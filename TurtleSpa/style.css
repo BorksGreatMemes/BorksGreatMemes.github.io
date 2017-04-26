@@ -1,12 +1,13 @@
 html,body {
-	background: #222;
-	color: #fff;
-	font-family: "helvetica";
+   background: #222;
+   color: #fff;
+   font-family: "helvetica";
 }
 #wrapper {
-	width: 800px;
-	margin: 0 auto;
-	box-shadow: 0 0 50px #000;
+   width: 800px;
+   margin: 0 auto;
+   min-height: 100%;
+   box-shadow: 0 0 50px #000;
 }
 h1 {
    margin: 0;
@@ -31,9 +32,9 @@ header{
    text-align: right;
    padding: 30px 40px 30px 40px;
    background-color: #000;
-   background-image: url(turtle_bath.jpg); 
-   width: 720px;
-   height: 650px;  
+   background-image: url(../images/turtle_bath.jpg); 
+   /* width: 720px;
+   height: 650px; */
 }
 
 section{
@@ -50,10 +51,9 @@ footer{
    text-align: center;
 }
 
- /*  
-ul {
-  color: #000000;
-  list-style-position: inside;
+/* ul{
+   color: #000;
+   list-style-position: inside;
 } 
 */
 
